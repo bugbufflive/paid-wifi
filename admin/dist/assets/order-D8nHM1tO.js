@@ -1,0 +1,1 @@
+import{s as e}from"./request-Csu4aEcQ.js";function t(r){return e.get("/admin/orders",{params:r})}function o(r){return e.post(`/admin/orders/${r}/confirm`)}function s(r){return e.post(`/admin/orders/${r}/reject`)}export{o as c,t as g,s as r};

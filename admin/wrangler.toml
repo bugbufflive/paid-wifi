@@ -1,0 +1,15 @@
+name = "paid-wifi-admin"
+main = "worker.js"
+compatibility_date = "2026-09-21"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[observability]
+enabled = true
+
+routes = [
+  { pattern = "admin.diego.de5.net", custom_domain = true }
+]

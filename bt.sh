@@ -1,3 +1,7 @@
+log()  { echo -e "${GREEN}[✓]${NC} $1"; }
+info() { echo -e "${BLUE}[i]${NC} $1"; }   # ← 加这一行
+warn() { echo -e "${YELLOW}[!]${NC} $1"; }
+err()  { echo -e "${RED}[✗]${NC} $1" >&2; }
 #!/bin/bash
 #
 # 付费WiFi系统 - 宝塔面板一键部署（自包含版）

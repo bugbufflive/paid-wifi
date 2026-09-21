@@ -7,6 +7,6 @@
 ### 1. 部署服务端（VPS）
 
 ```bash
-git clone https://github.com/your-username/paid-wifi.git
+git clone https://github.com/bugbufflive/paid-wifi.git
 cd paid-wifi
 sudo bash deploy/setup-vps.sh
